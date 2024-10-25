@@ -1,1 +1,1 @@
-# CK-Money  
+# CK-Money
