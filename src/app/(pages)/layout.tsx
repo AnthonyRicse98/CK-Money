@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { monserrat } from "../lib/invoices/fonts";
+import { monserrat } from "@/app/lib/utilities/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
