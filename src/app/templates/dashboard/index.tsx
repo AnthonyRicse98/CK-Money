@@ -6,11 +6,11 @@ interface IDashboardTemplate {
 
 const DashBoardTemplate = ({ children }: IDashboardTemplate) => {
   return (
-    <React.Fragment>
+    <div className="grid min-h-dvh grid-rows-[auto_1fr_auto]">
       <header>header</header>
-      <div>{children}</div>
+      <main>{children}</main>
       <footer>footer</footer>
-    </React.Fragment>
+    </div>
   );
 };
 
