@@ -1,3 +1,5 @@
+import CKFooter from "@/app/ui/footer/footer";
+import CKHeader from "@/app/ui/header/header";
 import React from "react";
 
 interface IDashboardTemplate {
@@ -7,9 +9,9 @@ interface IDashboardTemplate {
 const DashBoardTemplate = ({ children }: IDashboardTemplate) => {
   return (
     <div className="grid min-h-dvh grid-rows-[auto_1fr_auto]">
-      <header>header</header>
+      <CKHeader />
       <main>{children}</main>
-      <footer>footer</footer>
+      <CKFooter />
     </div>
   );
 };
