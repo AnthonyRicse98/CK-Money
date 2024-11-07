@@ -1,3 +1,4 @@
+import { IRateData, Rate } from "@/shared/entities/Rate";
 import { Lusitana, Montserrat } from "next/font/google";
 
 export const monserrat = Montserrat({ subsets: ["latin"], weight: ["400"] });
